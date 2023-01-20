@@ -3,7 +3,7 @@
 
 import { useState } from 'react'
 
-function Greeting({initialName}): number {
+function Greeting({initialName = ''}): number {
   const [name, setName] = useState(initialName)
 
   function handleChange({target: {value}}) {
