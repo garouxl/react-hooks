@@ -430,9 +430,91 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "Insidiae",
+      "name": "Kobe Ruado",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28495550?v=4",
+      "profile": "https://github.com/Insidiae",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "prasanthlouis",
+      "name": "Prasanth Louis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8705429?v=4",
+      "profile": "https://www.linkedin.com/in/prasanthlouis/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "SherylHohman",
+      "name": "Sheryl Hohman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8204778?v=4",
+      "profile": "https://stackoverflow.com/users/5411817/sherylhohman?tab=topactivity",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "VictoriaVasys",
+      "name": "Victoria Vasys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10079657?v=4",
+      "profile": "https://www.victoriavasys.com/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "ImElan",
+      "name": "Elan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59192383?v=4",
+      "profile": "https://github.com/ImElan",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "MBehtemam",
+      "name": "Mohammad Bagher Ehtemam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1811124?v=4",
+      "profile": "http://about.me/mbehtemam",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "leggsimon",
+      "name": "Simon Legg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11544418?v=4",
+      "profile": "https://github.com/leggsimon",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "PhilippVujic",
+      "name": "Philipp Vujic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28774924?v=4",
+      "profile": "https://github.com/PhilippVujic",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "romach",
+      "name": "Roman Cherepanov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2506484?v=4",
+      "profile": "https://github.com/romach",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
