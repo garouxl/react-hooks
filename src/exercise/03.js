@@ -3,42 +3,40 @@
 
 import * as React from 'react'
 
-function Name() {
+const Name = () => {
   const [name, setName] = React.useState('')
   return (
     <div>
       <label htmlFor="name">Name: </label>
-      <input id="name" value={name} onChange={event => setName(event.target.value)} />
-    </div>
-  )
-}
-
-function FavoriteAnimal({animal, onAnimalchange}) {
-  return (
-    <div>
-      <label htmlFor="animal">Favorite Animal: </label>
       <input
-        id="animal"
-        value={animal}
-        onChange={event => onAnimalchange(event.target.value)}
+        id="name"
+        value={name}
+        onChange={event => setName(event.target.value)}
       />
     </div>
   )
 }
 
-function Display({animal}) {
-  return <div>{`Hey, your favorite animal is: ${animal}!`}</div>
-}
+const FavoriteAnimal = ({animal, onAnimalChange}) => (
+  <div>
+    <label htmlFor="animal">Favorite Animal: </label>
+    <input
+      id="animal"
+      value={animal}
+      onChange={event => onAnimalChange(event.target.value)}
+    />
+  </div>
+)
 
-function App() {
+const Display = ({animal}) => <div>{`Your favorite animal is: ${animal}!`}</div>
+
+const App = () => {
   const [animal, setAnimal] = React.useState('')
+
   return (
     <form>
       <Name />
-      <FavoriteAnimal
-        animal={animal}
-        onAnimalchange={setAnimal}
-      />
+      <FavoriteAnimal animal={animal} onAnimalChange={setAnimal} />
       <Display animal={animal} />
     </form>
   )
